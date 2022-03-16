@@ -1,2 +1,2 @@
 # Insurance-Policy-Lapse-Prediction
-The Machine Learning Algorithm predicts when an insurance policy will lapse.
+This is a Machine Learning Algorithm that predicts when an insurance policy will lapse.
