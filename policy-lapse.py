@@ -15,5 +15,5 @@ import numpy as np
 import pandas as pd
 
 # DATA IMPORTATION
-client_df = pd.read_csv('client_data.csv')
+client_df = pd.read_csv('.data/client_data.csv')
 client_df.head(5)
