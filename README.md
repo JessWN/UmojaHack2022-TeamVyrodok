@@ -1,2 +1,6 @@
 # Insurance-Policy-Lapse-Prediction
-This is a Machine Learning Algorithm that predicts when an insurance policy will lapse.
+UmojaHack Intermediate Hackathon. 
+Team Members:
+- Jessica Njuguna
+- Teddy Waweru
+- Linda Kelida
