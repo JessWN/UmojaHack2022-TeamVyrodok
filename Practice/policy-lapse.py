@@ -15,10 +15,10 @@ import numpy as np
 import pandas as pd
 
 # DATA IMPORTATION
-client_df = pd.read_csv('.data/client_data.csv')
-payment_df = pd.read_csv('.data/payment_history.csv')
-policy_df = pd.read_csv('.data/policy_data.csv')
-train_df = pd.read_csv('.data/train.csv')
-smp_sub_df = pd.read_csv('.data/sample_sub.csv')
+client_df = pd.read_csv('data/client_data.csv')
+payment_df = pd.read_csv('data/payment_history.csv')
+policy_df = pd.read_csv('data/policy_data.csv')
+train_df = pd.read_csv('data/train.csv')
+smp_sub_df = pd.read_csv('data/sample_sub.csv')
 
 #EDA
