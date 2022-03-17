@@ -4,3 +4,4 @@ Team Members:
 - Jessica Njuguna
 - Teddy Waweru
 - Linda Kelida
+- Eric Mbuthia
