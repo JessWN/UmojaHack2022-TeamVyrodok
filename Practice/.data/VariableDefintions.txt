@@ -1,0 +1,36 @@
+﻿Client_data
+Contains some personal information on the principal member, such as location, branch and agent code, age etc. 
+* Policy_ID - Policy ID for the main member
+* NPH_LASTNAME - last name of principle member
+* NPH_SEX - sex of principle member
+* NPH_BIRTHDATE - birth year of principle member
+* NAD_ADDRESS1 - main address of principle member
+* NAD_ADDRESS2 - second address of principle member
+Payment_history
+Contains partial payment history up to the end of 2018, tied to Policy ID. 
+* Policy_ID - Policy ID for the main member
+* AMOUNTPAID - Amount paid
+* DATEPAID - date payment made
+* POSTDATE - a cool functionality to have for disussions is for Zindi to be able to pin posts to the top of challenge threads.
+* PREMIUMDATE - it states the next date on which the premium should be paid by to keep the policy alive
+Policy_data.csv
+Describes the policies themselves. There may be multiple rows for each Policy ID since policies can cover more than one person.
+* Policy_ID - Policy ID for the main member
+* NP2_EFFECTDATE - Date started
+* PPR_PRODCD - specifies the product code of product subscribed by the client
+* NPR_PREMUIM - Extra premium
+* NPH_LASTNAME - last name of member
+* CLF_LIFECD - differentiates relationship to principal.   1 principal 2 spouse , 3 child , 4 parent , 5 parent, 6 extended
+* NSP_SUBPROPOSAL - unique identifier of a life on a policy on a specific policy we can have the principal as 111  child1 as 222 child2 as 333
+* NPR_SUMASSURE - 
+* NLO_TYPE - identifies the premium types charged on a policy
+* NLO_AMOUNT - amount if there’s an extra charge
+* AAG_AGCODE - agent code of the policy agent
+* PCL_LOCATCODE - branch code
+* OCCUPATION - Job 
+* CATEGORY - area of work
+train.csv 
+Contains a list of all the policies. Policies that lapsed in 2017, 2018 or 2019 are identified with a 1 in the ‘Lapse’ column, and the year is provided. All other columns have a ‘?’ you need to predict if that customer will lapse in 2020. 
+* Policy_ID 
+* Lapse
+* Lapse Year
